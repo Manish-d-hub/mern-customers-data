@@ -1,0 +1,31 @@
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border: 1px solid #c890d8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.transactions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions-list li {
+  margin-bottom: 10px;
+}
